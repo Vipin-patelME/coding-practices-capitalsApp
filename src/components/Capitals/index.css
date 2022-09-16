@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 250px;
+  width: 30%;
+  border-radius: 10px;
+}
+.select-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.capital-paragraph {
+  font-family: 'Roboto';
+  font-weight: 510;
+}
+.country-name {
+  align-self: start;
+  margin-left: 40px;
+}
